@@ -2740,7 +2740,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("/images/StandRiver.jpg");
+			background-image: url("images/overlay.png"), url("../../images/StandRiver.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3095,7 +3095,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("/images/YosemiteCliffSeat.jpg");
+		background-image: url("images/overlay.png"), url("../../images/YosemiteCliffSeat.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
