@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/{VERSION}/typeit.min.js"></script>
+		
+		
 		
 	</head>
 	<body class="landing">
@@ -30,7 +33,9 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2>I Believe</h2>
-				<p> The same way nature comes together to create an environment for all varieties of life,<br /> we can do the same with web development. </p>
+				<p> The same way nature comes together to create an environment for all varieties of life,<br /> we can do the same with </p> <h2 id="selftype"></h2>
+			
+				
 				<ul class="actions">
 					<ul class="icons">
 						<li><a href="www.facebook.com" target="blank" class="icon fa-facebook"></a></li>
@@ -97,7 +102,7 @@
 				<section id="three" class="wrapper style1">
 					<div class="container">
 						<header class="major special">
-							<h2>General Assembly Graduate</h2>
+							<h2 class="general">General Assembly Graduate</h2>
 							<p>Take a look at each of these four GA Projects; all were created in a week sprint either by myself or on a team. </p>
 						</header>
 						<div class="feature-grid">
@@ -172,10 +177,23 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/{VERSION}/typeit.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/typeit.js"></script>
+			
+			<script>
+					
+				new TypeIt('#selftype', {
+					strings: ["Web Development", "Healthy Thoughts", "Open Source Libraries", "Critical Reading", "Meditation", "Creative Solutions", "Photoshop", "SEO "],
+					speed: 200,
+					breakLines: false,
+					autoStart: false,
+					loop:true
+		 });
+			</script>
 
 	</body>
 </html>
